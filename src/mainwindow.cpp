@@ -13,8 +13,8 @@ using json = nlohmann::json;
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), csvData("extras/responses.csv") ,spotifyApi(clientID, clientSecret) {
 
   outputPath = "externals/images";
-  clientID = "a4412cff31814879946fe79af060583a";
-  clientSecret = "46207aee4bb247439a54f73c2d8287c5";
+  clientID = "";
+  clientSecret = "";
 
   createdPlaylist = spotifyApi.createPlaylist(clientID, "3307B Test Playlist");
   accessToken = spotifyApi.getAccessToken();

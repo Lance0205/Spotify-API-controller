@@ -9,7 +9,7 @@
 #include <stdexcept>
 using json = nlohmann::json;
 // base64 code to be entered (from doing echo ...:... | base64)
-string base64Cred = "YTQ0MTJjZmYzMTgxNDg3OTk0NmZlNzlhZjA2MDU4M2E6NDYyMDdhZWU0YmIyNDc0MzlhNTRmNzNjMmQ4Mjg3YzU=";
+string base64Cred = "";
 
 /** @brief Constructor for the SpotifyAPI class
  * @param clientId is the client id obtained from the developer dashboard
