@@ -29,7 +29,6 @@ External libraries: lcurl (run apt-get install libcurl4-openssl-dev), -lcpprest,
 Spotify Premium Subscription
 
 ## Steps to run program:
---> if you have any questions about the instructions, please reach out via email to rcamer8@uwo.ca
 1. Go to https://developer.spotify.com/dashboard and sign into spotify premium account
 2. Click on "Create app", enter any name for "App name", enter "http://localhost:3000" for Redirect Url
 3. Select "Web Api" and "Web Playback SDK" (if not selected by default)
